@@ -1,7 +1,7 @@
 #ifndef TWEETNACL_H
 #define TWEETNACL_H
 
-#include "config.h"
+#include "tweetnacl.config.h"
 
 typedef unsigned char u8;
 typedef unsigned long u32;
