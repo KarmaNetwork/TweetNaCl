@@ -1,4 +1,3 @@
-build/*
-dependenices/*
-dev_dependenices/*
-include/*.config.h
+dependences/
+build/
+build.ninja

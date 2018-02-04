@@ -1,0 +1,14 @@
+[project]
+name = "tiannian/TweetNaCl"
+version = "0.1.0"
+type = "lib"
+
+[target]
+arch = "x86_64"
+platform = "Linux"
+
+[expect]
+arch = [ "General",]
+platform = [ "General",]
+
+[dependences]

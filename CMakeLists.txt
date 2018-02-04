@@ -1,7 +1,0 @@
-INCLUDE (KBT)
-cmake_minimum_required(VERSION 3.10)
-KBT_PROJECT(tweetnacl 0.1.0)
-KBT_SET_ARCH(x86)
-KBT_SET_PLATFORM(Linux)
-KBT_SET_PROJECT_TYPE(lib)
-KBT_CONFIG()

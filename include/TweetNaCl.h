@@ -1,8 +1,6 @@
 #ifndef TWEETNACL_H
 #define TWEETNACL_H
 
-#include "tweetnacl.config.h"
-
 typedef unsigned char u8;
 typedef unsigned long u32;
 typedef unsigned long long u64;
@@ -77,6 +75,5 @@ int crypto_stream_xor(u8 *c,const u8 *m,u64 d,const u8 *n,const u8 *k);
 #define crypto_verify_32_BYTES 32
 int crypto_verify_16(const u8 *x,const u8 *y);
 int crypto_verify_32(const u8 *x,const u8 *y);
-
 
 #endif
