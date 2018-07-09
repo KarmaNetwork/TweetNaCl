@@ -7,4 +7,4 @@ type = "lib"
 arch = [ "General",]
 platform = [ "General",]
 
-[dependences]
+[dependencies]
