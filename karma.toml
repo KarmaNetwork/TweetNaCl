@@ -1,10 +1,10 @@
 [project]
-name = "tiannian/TweetNaCl"
+name = "TweetNaCl"
+package = "tiannian"
 version = "0.1.0"
-type = "lib"
-
-[expect]
-arch = [ "General",]
-platform = [ "General",]
+maintainer = "tiannian"
+upstream = "https://github.com/karma-iot/TweetNaCl"
+platform = [ "general" ]
+arch = [ "general" ]
 
 [dependencies]
